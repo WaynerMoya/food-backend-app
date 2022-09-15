@@ -1,0 +1,24 @@
+{
+  "name": "recommended-dish-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env-cmd -f .env nodemon ./src/index.ts"
+  },
+  "author": "Wayner Moya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typeorm": "^0.3.9"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
